@@ -70,18 +70,18 @@ To apply filters:
 3. Select any number of filters. Your selections will be highlighted in green and the map will automatically refresh to display crashes with your selected filters. 
 
 <figure markdown>
-  ![Selecting various filters](img/quick-start/filter-select-3.gif)
+  ![Selecting various filters](img/quick-start/filter-select.gif)
   <figcaption>Selecting various filters from the Filter Menu will automatically refresh crashes within your map view.</figcaption>
 </figure>
 
-??? summary "How crashes are queried when multiple filter categories are selected"
+??? summary "How crashes are filtered when multiple crash attributes are selected"
 
     When individual filters under the same category are selected, crashes will be queried with the individual filters appended with an "OR" clause. For example: 
 
     - Selecting "Wet", "Snowy", and "Icy" under the Road Condition category will query crashes with Road Condition of "Wet" OR "Snowy" OR "Icy".
 
     <figure markdown>
-      ![How crashes are queried when selecting filters under the same category](img/quick-start/filter-selection-1.svg)
+      ![How crashes are queried when selecting filters under the same category](img/quick-start/filter-explain-1.svg)
       <figcaption>How crashes are queried when selecting filters under the same category.</figcaption>
     </figure>
     
@@ -91,7 +91,7 @@ To apply filters:
     - Selecting "Wet", "Snowy", and "Icy" under the Road Condition category **and** "Fatal Injury" and "Possible Injury" under the Pedestrian Physical Condition category will query crashes with (Road Condition of "Wet" OR "Snowy" OR "Icy") **and** (Pedestrian Physical Condition of "Fatal Injury" OR "Possible Injury").
 
     <figure markdown>
-      ![How crashes are queried when selecting filters across multiple categories](img/quick-start/filter-selection-2.svg)
+      ![How crashes are queried when selecting filters across multiple categories](img/quick-start/filter-explain-2.svg)
       <figcaption>How crashes are queried when selecting filters across multiple categories.</figcaption>
     </figure> 
 
@@ -100,6 +100,6 @@ To apply filters:
 Crash records can be exported as a CSV file for further analysis. The exported crash records are based on the crashes currently visible in your map view. To export crash records:
 
 1. Move your map view to encompass all crash records you want to export.
-2. Open the :list-settings-fill: Results Display on the bottom-left of the map interface if not opened already. 
-3. Click :folder-zip-line: Export Records. The application will take time preparing your export depending on how many crash records are in your map view.
+2. Open the :list-settings-fill: Results Display on the bottom-left of the map interface. 
+3. Click :folder-zip-line: Export Records. The application will take time preparing your export depending on how many crashes are in your map view.
 4. Agree to the disclaimer to download a CSV file of crash record data.
