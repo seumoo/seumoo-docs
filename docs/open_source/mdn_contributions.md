@@ -137,8 +137,12 @@ While updating the <code>WebAssembly</code> pages, I noticed that many live exam
 
 ## Challenges
 
+The following are challenges I faced during Writing Day.
+
 ### Revising the Examples Section
 Revising descriptions in the <code>WebAssembly.Table</code> examples section was challenging as the initial descriptions were unclear, the reference files were easily accessible, and the instructions were not sequential. I tried to segment the code snippets in an understandable sequential order, edited and moved descriptions to correlate with the instructions, and listed all references used.
+
+### Using VS Code to View Pull Requests
 
 I had trouble setting up my Visual Studio Code IDE when viewing my pull requests and contributor comments. It was hard to edit the documentation page as comments did not align with specific code lines even though comments were viewable on Github. I eventually committed a revision that implemented suggestions from various contributors and was extremely happy with the result.
 

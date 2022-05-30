@@ -1,7 +1,7 @@
 # Quick Start Guide to Exploring Fruit City Crashes
 Learn how to navigate the map interface and query crash records in Fruit City.
 
-*Disclaimer: The following guide is based on a real application I worked on. All data in the graphics uses imaginary data.*
+*Disclaimer: The following guide is based on a real application I worked on. All data in the graphics use imaginary data.*
 ___
 
 This guide will go over the following:
@@ -11,7 +11,7 @@ This guide will go over the following:
 3. Exporting record data for further analysis
 
 <figure markdown>
-  ![Crash Map Flowchart](img/quick-start/workflow.svg)
+  ![Crash Map Flowchart](../img/quick-start/workflow.svg)
   <figcaption>One workflow when exploring Fruit City crashes.</figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ Jurisdictions including counties and municipalities can be searched in by using 
         You cannot select a mix of counties and municipalities. When selecting counties, all municipality options will be disabled and vice versa.
 
     <figure markdown>
-      ![Jurisdiction select using the Filter Menu](img/quick-start/filter-menu.png){ width="500" }
+      ![Jurisdiction select using the Filter Menu](../img/quick-start/filter-menu.png){ width="500" }
       <figcaption>Jurisdiction select using the Filter Menu. Counties will be disabled when municipalities are selected and vice versa.</figcaption>
     </figure>
 
@@ -51,7 +51,7 @@ Jurisdictions including counties and municipalities can be searched in by using 
         The Search Bar can support one selection at a time. To select multiple jurisdictions, use the :government-line: Jurisdiction Menu from the :filter-fill: Filter Menu after selecting a "COUNTY" or "MUNICIPALITY" option.
 
     <figure markdown>
-      ![Jurisdiction select using the Search Bar](img/quick-start/jurisdiction-search.png){ width="500" }
+      ![Jurisdiction select using the Search Bar](../img/quick-start/jurisdiction-search.png){ width="500" }
       <figcaption>Jurisdiction select using the Search Bar</figcaption>
     </figure>
 
@@ -70,7 +70,7 @@ To apply filters:
 3. Select any number of filters. Your selections will be highlighted in green and the map will automatically refresh to display crashes with your selected filters. 
 
 <figure markdown>
-  ![Selecting various filters](img/quick-start/filter-select.gif)
+  ![Selecting various filters](../img/quick-start/filter-select.gif)
   <figcaption>Selecting various filters from the Filter Menu will automatically refresh crashes within your map view.</figcaption>
 </figure>
 
@@ -81,7 +81,7 @@ To apply filters:
     - Selecting "Wet", "Snowy", and "Icy" under the Road Condition category will query crashes with Road Condition of "Wet" OR "Snowy" OR "Icy".
 
     <figure markdown>
-      ![How crashes are queried when selecting filters under the same category](img/quick-start/filter-explain-1.svg)
+      ![How crashes are queried when selecting filters under the same category](../img/quick-start/filter-explain-1.svg)
       <figcaption>How crashes are queried when selecting filters under the same category.</figcaption>
     </figure>
     
@@ -91,7 +91,7 @@ To apply filters:
     - Selecting "Wet", "Snowy", and "Icy" under the Road Condition category **and** "Fatal Injury" and "Possible Injury" under the Pedestrian Physical Condition category will query crashes with (Road Condition of "Wet" OR "Snowy" OR "Icy") **and** (Pedestrian Physical Condition of "Fatal Injury" OR "Possible Injury").
 
     <figure markdown>
-      ![How crashes are queried when selecting filters across multiple categories](img/quick-start/filter-explain-2.svg)
+      ![How crashes are queried when selecting filters across multiple categories](../img/quick-start/filter-explain-2.svg)
       <figcaption>How crashes are queried when selecting filters across multiple categories.</figcaption>
     </figure> 
 
