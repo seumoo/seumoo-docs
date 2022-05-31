@@ -14,8 +14,5 @@ hide:
 
 <h1 style="text-align:center">Welcome to Seumoo Docs!</h1>
 
-<div style="text-align:center">This page features sample documentation work including quick start guides for applications, programming tutorials, and 3D modeling tutorials.</div>
-
-<div style="text-align:center"><i>Still under development!</i></div>
-
+<div style="text-align:center">This page features sample documentation work including quick start guides for applications, programming tutorials, and open source contributions.</div>
 

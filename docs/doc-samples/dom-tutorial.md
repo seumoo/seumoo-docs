@@ -10,7 +10,8 @@ This tutorial will go over the following:
 1. Creating a HTML DOM table to display the object array contents
 2. Reusing code with template strings (optional)
 
-Check out the source code on [Github](https://github.com/seumoo/dom-sample){:target="_blank"} and live version here.
+Check out the source code on [Github](https://github.com/seumoo/dom-sample){:target="_blank"} 
+and live version [here](https://seumoo.com/sample-code/dom-sample/index.html){:target="_blank"}.
 
 ## Prerequisites 
 
@@ -269,7 +270,7 @@ function displayDomTable() {
 ```
 
 Call `displayDomTable()` at the end if your script and open `index.html`. Your page should now display an HTML table with contents
-from the object array, similar to the live version.
+from the object array, similar to the [live version](https://seumoo.com/sample-code/dom-sample/index.html){:target="_blank"}.
 
 ## Code Reuse with Template Strings (Optional)
  
