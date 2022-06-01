@@ -1,4 +1,4 @@
-# Creating a HTML DOM Table from a JavaScript Object Array
+# Creating an HTML DOM Table from a JavaScript Object Array
 
 Learn how to create an HTML table from a object array using JavaScript to read array items and instantiate DOM elements. 
 ___

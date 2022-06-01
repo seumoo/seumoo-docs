@@ -1,11 +1,13 @@
-site_name: Seumoo Docs
+site_name: Seumoo-Docs
 site_url: https://seumoo.com/seumoo-docs
 repo_url: https://github.com/seumoo/seumoo-docs
 site_dir: seumoo-docs
+extra:
+    homepage: https://seumoo.com
 theme:
     name: material
-    custom_dir: overrides
-    logo: img/logo_black.svg
+    custom_dir: material
+    logo: img/logo_purple_noname.png
     favicon: img/favicon.ico
     palette:
         primary: seumoo-docs
@@ -37,6 +39,6 @@ nav:
     - Home: index.md
     - Documentation Samples: 
         - Quick Start Guide to Exploring Fruit City Crashes: doc-samples/quick-start.md    
-        - Creating a HTML DOM Table from JSON using JavaScript: doc-samples/dom-tutorial.md  
+        - Creating an HTML DOM Table from JSON using JavaScript: doc-samples/dom-tutorial.md  
     - Open Source Contributions:
         - MDN Web Docs: open_source/mdn_contributions.md

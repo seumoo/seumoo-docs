@@ -88,3 +88,48 @@
   text-align: left;
   vertical-align: top
 }
+
+.md-header__button.md-logo :-webkit-any(img,svg) {
+  fill: currentcolor;
+  FONT-WEIGHT: 200;
+  height: 2rem;
+  width: auto;
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+.py-5 {
+  padding-top: 3rem!important;
+  padding-bottom: 3rem!important;
+}
+.px-4 {
+  padding-right: 1.5rem!important;
+  padding-left: 1.5rem!important;
+}
+.my-5 {
+  margin-top: 3rem!important;
+  margin-bottom: 3rem!important;
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.fw-bold {
+  font-weight: 700!important;
+}
+
+.display-5 {
+    font-size: 3rem;
+}
