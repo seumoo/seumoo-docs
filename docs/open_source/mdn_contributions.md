@@ -148,7 +148,7 @@ I had trouble setting up my Visual Studio Code IDE when viewing my pull requests
 
 ## What I Learned
 
-I learned about contributing to open source documentation using Github. This was my first creating pull requests, opening issues, and collaborating with others on a public Github repository. I had a lot of practice committing changes to pull requests and now understand how pull requests work and when to use them.
+I learned about contributing to open source documentation using Github. This was my first project creating pull requests, opening issues, and collaborating with others on a public Github repository. I had a lot of practice committing changes to pull requests and now understand how pull requests work and when to use them.
 
-Additionally, I received a lot of feedback on grammar and code changes from other contributors. I learned how to use Visual Studio Code to checkout my pull requests, review contributor comments, and implement file changes. I learned a lot of about how <code>WebAssembly</code> works though contributors explaining how the code examples worked.
+Additionally, I received a lot of feedback on grammar and code changes from other contributors. I learned how to use Visual Studio Code to checkout my pull requests, review contributor comments, and implement file changes. I also  learned about <code>WebAssembly</code> thanks to contributors explaining how the code examples worked.
 
