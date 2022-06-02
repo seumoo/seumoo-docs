@@ -133,3 +133,49 @@
 .display-5 {
     font-size: 3rem;
 }
+
+.md-typeset .md-button {
+  border: .1rem solid;
+  border-radius: .2rem;
+  color: var(--md-primary-fg-color);
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  padding: .625em 2em;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.md-typeset .md-button-primary {
+  border: .1rem solid;
+  border-radius: .2rem;
+  color: var(--md-primary-fg-color);
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  padding: .625em 2em;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.md-typeset .md-button:is(:focus,:hover) {
+  color: var(--md-typeset-a-color);
+}
+
+.md-typeset .md-button:is(:focus,:hover) {
+  background-color: white !important;
+  border-color: white !important;
+  color: var(--md-typeset-a-color);
+}
+
+.md-typeset .md-button-primary:is(:focus,:hover) {
+  background-color: #13586e !important;
+  border-color: #13586e !important;
+  color: var(--md-typeset-a-color);
+}
